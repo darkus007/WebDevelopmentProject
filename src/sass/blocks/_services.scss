@@ -1,0 +1,46 @@
+.services {
+    padding: 173px 0 95px 0;
+    background-color: #e4fdf9;
+    text-align: center;
+    &__item {
+        margin-bottom: 31px;
+        background-color: #fff;
+        padding: 58px 50px 49px 50px;
+        transition: $transition_time;
+        &:hover {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+            background-color: #00897b;
+            color: #fff;
+        }
+        &:hover .services__icon {
+            color: #fff;
+        }
+        &:hover .subtitle {
+            color: #fff;
+        }
+        &:hover .services__btn {
+            color: #fff;
+            border: 2px solid #fff;
+        }
+    }
+    &__icon {
+        font-size: 62px;
+        color: #000;
+        transition: $transition_time;
+    }
+    &__btn {
+        margin-top: 45px;
+        width: 150px;
+        height: 55px;
+        border: 2px solid #212121;
+        background: transparent;
+        text-transform: uppercase;
+        color: #212121;
+        font-size: 20px;
+        font-weight: 400;
+        transition: $transition_time;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
