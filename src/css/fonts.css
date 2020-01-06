@@ -30,6 +30,6 @@
     font-display: swap;
 	src: local('OpenSans Semibold'), local('OpenSans-Semibold'),
 		url('../fonts/OpenSans-Semibold.ttf') format('truetype');
-	font-weight: normal;
+	font-weight: 400;
 	font-style: normal;
 }
