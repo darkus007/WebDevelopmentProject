@@ -1,0 +1,28 @@
+.portfolio {
+    padding: 128px 0 136px 0;
+    text-align: center;
+    &__item {
+        margin-top: 12px;
+        width: 370px;
+        height: 370px;
+        & img {
+            width: 100%;
+        }
+        &:hover img {
+            filter: brightness(50%);
+            transition: $transition_time;
+        }
+        &:hover .portfolio__text {
+            display: block;
+        }
+    }
+    &__text {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 40%;
+        left: 0;
+        text-align: center;
+        z-index: 3;
+    }
+}
