@@ -1,0 +1,57 @@
+.team {
+    padding: 122px 0 124px 0;
+    text-align: center;
+    &__name {
+        margin-top: 38px;
+        color: #212121;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+    &__prof {
+        margin-top: 12px;
+        color: #212121;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+    }
+    &__social {
+        margin-top: 29px;
+    }
+    &__wrapper {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #f0f1f1;
+        color: #00897b;
+        font-size: 28px;
+        line-height: 50px;
+        text-align: center;
+        margin: 0 11px;
+        transition: $transition_time;
+        &:hover {
+            background-color: #3949ab;
+            color: #ffffff;
+        }
+    }
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -150px;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+    margin-left: 3px;
+    background-color: #00897b;
+    border-radius: 50%;
+    opacity: 1;
+    /* transition: opacity .6s ease; */
+}
+.carousel-indicators .active {
+    background-color: #3949ab;
+    opacity: 1;
+}
